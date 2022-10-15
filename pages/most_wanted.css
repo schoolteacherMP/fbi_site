@@ -1,0 +1,31 @@
+h1 {
+  background-color: blueviolet;
+  color: antiquewhite;
+  text-align: center;
+}
+.wanted_img {
+  width: 300px;
+}
+.wanted_img_content {
+  color: brown;
+}
+
+.main_wanted_wrapper {
+  background-color: #cacaf8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.wanted_img_wrapper {
+  width: 300px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.wanted_img_wrapper:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  background-color:blueviolet;
+}
