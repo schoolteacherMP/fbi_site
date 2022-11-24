@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../pages/about.css">
+  <link rel="stylesheet" href="contacts.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="header_wrapper">
+      <div class="header_logo">
+        <a href="../index.html">
+          <img
+            class="header_logo_svg"
+            src="../img/FBI_logo.svg"
+            alt="logo"
+          />
+        </a>
+      </div>
+
+      <nav class="header_nav">
+        <ul class="header_nav_ul">
+          <li>
+            <a class="header_nav_link" href="../index.html">main</a>
+          </li>
+          <li>
+            <a
+              class="header_nav_link "
+              href="../pages/most_wanted.html"
+              >most wanted</a
+            >
+          </li>
+          <li><a class="header_nav_link" href="../pages/about.html">about</a></li>
+          <li><a class="header_nav_link active_link" href="../pages/contacts.html">contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main_contacts">
+    <h1>Contact us</h1>
+    <div class="wrapper_contacts_form">
+      <form class="contacts_form" action="">
+       <div class="wrapper_form_item">
+         <label for="">Name</label>
+         <input type="text">
+       </div>
+       <div class="wrapper_form_item">
+         <label for="">Email</label>
+         <input type="email">
+       </div>
+       <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label class="label_checkbox" for=""><input type="checkbox">I agree to the processing of my data</label>
+        <fieldset>
+          <legend>I would like to be an FBI agent:</legend>
+          <div>
+            <input type="radio" id="Yes" name="drone" value="Yes" checked>
+            <label for="Yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="No" name="drone" value="No">
+            <label for="No">No</label>
+          </div>
+          <div>
+            <input type="radio" id="agent" name="drone" value="agent">
+            <label for="agent">I'm an agent</label>
+          </div>
+        </fieldset>
+      <label for="country">country:</label>
+      <select name="country" id="country">
+        <option value="">Georgia</option>
+        <option value="">USA</option>
+        <option value="">Turkey</option>
+      </select>
+       <button class="contacts_btn">Submit</button>
+      </form>
+    </div>
+    <div class="wrapper_contacts_social">
+      <div class="wrapper_social_item"><a href="" class=" social_link_circle"><img class="social_link_img" src="../img/Instagram.svg" alt="social_link"></a></div>
+      <div class="wrapper_social_item"><a href="" class=" social_link_circle"><img class="social_link_img" src="../img/facebook.png" alt="social_link"></a></div>
+      <div class="wrapper_social_item"><a href="" class=" social_link_circle"><img class="social_link_img" src="../img/twitter.png" alt="social_link"></a></div>
+      <div class="wrapper_social_item"><a href="" class=" social_link_circle"><img class="social_link_img" src="../img/youtube.png" alt="social_link"></a></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_wrapper">
+      <a href="../index.html">
+        <img class="footer_logo" src="../img/FBI_logo.svg" alt="logo">
+      </a>
+      <div class="social_link_wrapper">
+        <a href="" class="social_link"><img class="social_link_logo" src="../img/Instagram.svg" alt="social_link"></a>
+        <a href="" class="social_link"><img class="social_link_logo" src="../img/facebook.png" alt="social_link"></a>
+        <a href="" class="social_link"><img class="social_link_logo" src="../img/twitter.png" alt="social_link"></a>
+        <a href="" class="social_link"><img class="social_link_logo" src="../img/youtube.png" alt="social_link"></a>
+    </div>
+  </footer>
+</body>
+</html>
